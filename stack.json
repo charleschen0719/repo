@@ -1,0 +1,308 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \CocoaLigature0 \{\
+    "StackResources": [\
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::VPCGatewayAttachment", \
+            "Timestamp": "2016-11-29T05:47:52.718Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charl-Attac-RGYQCFP039DO", \
+            "LogicalResourceId": "AttachGateway"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::IAM::Role", \
+            "Timestamp": "2016-11-29T05:47:24.657Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charles-stack-CodeDeployTrustRole-FB93W1K0LHZI", \
+            "LogicalResourceId": "CodeDeployTrustRole"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::IAM::Policy", \
+            "Timestamp": "2016-11-29T05:47:22.567Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charl-Code-1M26SAFF9AINF", \
+            "LogicalResourceId": "CodePipelineRolePolicies"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::IAM::Role", \
+            "Timestamp": "2016-11-29T05:47:16.510Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charles-stack-CodePipelineTrustRole-1FLV4SK6XXL35", \
+            "LogicalResourceId": "CodePipelineTrustRole"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::CodePipeline::CustomActionType", \
+            "Timestamp": "2016-11-29T05:52:20.337Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charl-Custo-5RVQCJJQKDAM", \
+            "LogicalResourceId": "CustomJenkinsActionType"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::CodeDeploy::DeploymentGroup", \
+            "Timestamp": "2016-11-29T05:47:34.271Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "app-name1-DevEnv", \
+            "LogicalResourceId": "DevDeploymentGroup"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::Instance", \
+            "Timestamp": "2016-11-29T05:50:18.636Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "i-0d1bb28d5f10f0b40", \
+            "LogicalResourceId": "DevWebApp01"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::NetworkAclEntry", \
+            "Timestamp": "2016-11-29T05:48:00.458Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charl-Inbou-1FBMDMGGO42IX", \
+            "LogicalResourceId": "InboundPublicNAclEntry"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::InternetGateway", \
+            "Timestamp": "2016-11-29T05:47:21.256Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "igw-1ec74579", \
+            "LogicalResourceId": "InternetGateway"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::CloudFormation::WaitCondition", \
+            "Timestamp": "2016-11-29T05:52:14.792Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e/JenkinsHostWaitHandle", \
+            "LogicalResourceId": "JenkinsHostWaitCondition"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::CloudFormation::WaitConditionHandle", \
+            "Timestamp": "2016-11-29T05:47:05.518Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "https://cloudformation-waitcondition-us-east-1.s3.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-east-1%3A317750210467%3Astack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e/JenkinsHostWaitHandle?AWSAccessKeyId=AKIAIIT3CWAIMJYUTISA&Expires=1480484825&Signature=CYGR%2FXr9W6nudBVBOCPVIBiweV0%3D", \
+            "LogicalResourceId": "JenkinsHostWaitHandle"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::IAM::InstanceProfile", \
+            "Timestamp": "2016-11-29T05:49:26.130Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charles-stack-JenkinsInstanceProfile-122O6QILDDP7P", \
+            "LogicalResourceId": "JenkinsInstanceProfile"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::IAM::Role", \
+            "Timestamp": "2016-11-29T05:47:18.244Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charles-stack-JenkinsRole-14E75HRICQYT1", \
+            "LogicalResourceId": "JenkinsRole"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::IAM::Policy", \
+            "Timestamp": "2016-11-29T05:47:32.720Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charl-Jenk-5UM1TRHPON0", \
+            "LogicalResourceId": "JenkinsRolePolicies"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::SecurityGroup", \
+            "Timestamp": "2016-11-29T05:47:51.172Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "sg-4cf49731", \
+            "LogicalResourceId": "JenkinsSG"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::Instance", \
+            "Timestamp": "2016-11-29T05:50:22.508Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "i-0b938f5494c402bcc", \
+            "LogicalResourceId": "JenkinsServer"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::CodeDeploy::Application", \
+            "Timestamp": "2016-11-29T05:47:05.745Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "app-name1", \
+            "LogicalResourceId": "MyApp"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::CodePipeline::Pipeline", \
+            "Timestamp": "2016-11-29T05:52:31.026Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "app-name1-Pipeline", \
+            "LogicalResourceId": "MyPipeline"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::VPC", \
+            "Timestamp": "2016-11-29T05:47:26.646Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "vpc-1b2fea7d", \
+            "LogicalResourceId": "MyVPC"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::NetworkAclEntry", \
+            "Timestamp": "2016-11-29T05:48:00.030Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charl-Outbo-795LKLS74PQ9", \
+            "LogicalResourceId": "OutboundPublicNetworkAclEntry"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::CodeDeploy::DeploymentGroup", \
+            "Timestamp": "2016-11-29T05:47:36.808Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "app-name1-ProdEnv", \
+            "LogicalResourceId": "ProdDeploymentGroup"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::Instance", \
+            "Timestamp": "2016-11-29T05:50:23.667Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "i-04e82b92209f572f8", \
+            "LogicalResourceId": "ProdWebApp01"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::NetworkAcl", \
+            "Timestamp": "2016-11-29T05:47:38.616Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "acl-d51790b3", \
+            "LogicalResourceId": "PublicNetworkAcl"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::Route", \
+            "Timestamp": "2016-11-29T05:48:01.414Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charl-Publi-1WJQW4I9ZR25D", \
+            "LogicalResourceId": "PublicRoute"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::RouteTable", \
+            "Timestamp": "2016-11-29T05:47:38.722Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "rtb-81fbcfe7", \
+            "LogicalResourceId": "PublicRouteTable"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::SubnetRouteTableAssociation", \
+            "Timestamp": "2016-11-29T05:48:14.254Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "rtbassoc-e28fb69b", \
+            "LogicalResourceId": "PublicSubnetRTAssociation01"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::S3::Bucket", \
+            "Timestamp": "2016-11-29T05:47:25.483Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "demo-us-east-1-317750210467-app-name1", \
+            "LogicalResourceId": "S3Bucket"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::IAM::InstanceProfile", \
+            "Timestamp": "2016-11-29T05:49:26.445Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charles-stack-WebAppInstanceProfile-TQZEWHQ7EF3F", \
+            "LogicalResourceId": "WebAppInstanceProfile"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::IAM::Role", \
+            "Timestamp": "2016-11-29T05:47:18.454Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charles-stack-WebAppRole-1P4M5W253OQOI", \
+            "LogicalResourceId": "WebAppRole"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::IAM::Policy", \
+            "Timestamp": "2016-11-29T05:47:31.724Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "charl-WebA-1DJTDFEQIZIKL", \
+            "LogicalResourceId": "WebAppRolePolicies"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::SecurityGroup", \
+            "Timestamp": "2016-11-29T05:47:52.750Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "sg-39f49744", \
+            "LogicalResourceId": "WebAppSG"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::Subnet", \
+            "Timestamp": "2016-11-29T05:47:53.411Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "subnet-b355ede8", \
+            "LogicalResourceId": "publicSubnet01"\
+        \}, \
+        \{\
+            "StackId": "arn:aws:cloudformation:us-east-1:317750210467:stack/charles-stack/3c920190-b5f7-11e6-8fd7-500c5242948e", \
+            "ResourceStatus": "CREATE_COMPLETE", \
+            "ResourceType": "AWS::EC2::SubnetNetworkAclAssociation", \
+            "Timestamp": "2016-11-29T05:48:14.132Z", \
+            "StackName": "charles-stack", \
+            "PhysicalResourceId": "aclassoc-b3a968cc", \
+            "LogicalResourceId": "publicSubnetNetworkAclAssociation01"\
+        \}\
+    ]\
+\}\
+}
